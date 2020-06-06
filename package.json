@@ -1,0 +1,19 @@
+{
+  "name": "portfolio-v2",
+  "version": "1.0.0",
+  "description": "A new portfolio to impress all who view it.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/MalikMAlna/my-portfolio-v2.git"
+  },
+  "author": "Malik (Mike)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/MalikMAlna/my-portfolio-v2/issues"
+  },
+  "homepage": "https://gitlab.com/MalikMAlna/my-portfolio-v2#readme"
+}
