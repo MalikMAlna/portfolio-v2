@@ -1,16 +1,12 @@
-image: node:alpine
+# This file is a template, and might need editing before it works on your project.
 pages:
   stage: deploy
   script:
-    - npm install
-    - npm run build
-    - rm -rf public
-    - mv build public
-    - mv dependencygraph.html public/
+    - mkdir .public
+    - cp -r * .public
+    - mv .public public
   artifacts:
     paths:
       - public
   only:
     - master
-variables:
-  PUBLIC_URL: "/portfolio-v2"
