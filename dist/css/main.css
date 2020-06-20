@@ -57,14 +57,14 @@
       height: 250px;
       background: url("../img/portrait.jpg");
       border-radius: 60%;
-      border: solid 3px #b914ff; }
+      border: solid 3px #b815ee; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
     transition: all 0.5s ease-out; }
     .menu .nav-item.show {
       transform: translate3d(0, 0, 0); }
     .menu .nav-item.current > a {
-      color: #b914ff; }
+      color: #b815ee; }
   .menu .nav-link {
     display: inline-block;
     position: relative;
@@ -75,7 +75,7 @@
     color: #fff;
     transition: all 0.5s ease-out; }
     .menu .nav-link:hover {
-      color: #b914ff; }
+      color: #b815ee; }
 
 .nav-item:nth-child(1) {
   transition-delay: 0.1s; }
@@ -200,7 +200,7 @@ header {
   width: 100%; }
 
 .text-secondary {
-  color: #b914ff; }
+  color: #b815ee; }
 
 main {
   padding: 4rem;
@@ -211,9 +211,12 @@ main {
       padding: 0.1rem;
       margin-left: 0.75rem; }
       main .icons a:hover {
-        color: #b914ff;
+        color: #b815ee;
         transition: all 0.5s ease-out; }
   main#home {
     overflow: hidden; }
     main#home h1 {
       margin-top: 20vh; }
+
+.about-info {
+  display: grid; }
