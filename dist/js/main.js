@@ -34,3 +34,6 @@ function toggleMenu() {
         showMenu = false;
     }
 }
+
+// Generate random primary/secondary colors each day...?
+// https://stackoverflow.com/questions/17787845/how-to-control-sass-variable-with-javascript#17787971
