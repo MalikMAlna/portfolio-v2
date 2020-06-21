@@ -46,6 +46,11 @@ header {
 
 .text-secondary {
   color: $secondary-color;
+
+  &:hover {
+    @include easeOut();
+    color: set-text-color($primary-color);
+  }
 }
 
 main {
@@ -117,6 +122,15 @@ main {
   background: darken($primary-color, 10);
   color: set-text-color($primary-color);
   height: 50px;
+}
+
+a.nav-link {
+  color: $secondary-color;
+  @include easeOut;
+
+  &:hover {
+    color: set-text-color($primary-color);
+  }
 }
 
 @import "mobile";
