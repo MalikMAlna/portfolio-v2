@@ -1,5 +1,6 @@
 @import "config";
 @import "menu";
+@import "buttons";
 
 * {
   box-sizing: border-box;
@@ -78,6 +79,16 @@ main {
   }
 }
 
+// Nav Link Styling for ease into default text color from secondary when not current/selected
+a.nav-link {
+  color: $secondary-color;
+  @include easeOut;
+
+  &:hover {
+    color: set-text-color($primary-color);
+  }
+}
+
 .about-info {
   display: grid;
   grid-gap: 30px;
@@ -116,21 +127,30 @@ main {
   }
 }
 
+// Work/Projects
+.projects {
+  display: grid;
+  grid-gap: 0.7rem;
+  grid-template-columns: repeat(3, 1fr);
+
+  img {
+    width: 100%;
+    border: 3px set-text-color($primary-color) solid;
+
+    &:hover {
+      opacity: 0.7;
+      border-color: $secondary-color;
+      @include easeOut;
+    }
+  }
+}
+
 #main-footer {
   text-align: center;
   padding: 1rem;
   background: darken($primary-color, 10);
   color: set-text-color($primary-color);
   height: 50px;
-}
-
-a.nav-link {
-  color: $secondary-color;
-  @include easeOut;
-
-  &:hover {
-    color: set-text-color($primary-color);
-  }
 }
 
 @import "mobile";
