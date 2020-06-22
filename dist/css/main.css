@@ -300,7 +300,9 @@ li {
     right: 25px;
     top: 25px; }
   .projects {
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr; }
+  .job {
+    padding-left: 5rem; } }
 
 @media screen and (max-width: 475px) {
   main#home h1 {
