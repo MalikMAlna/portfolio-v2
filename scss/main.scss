@@ -89,6 +89,7 @@ a.nav-link {
   }
 }
 
+// About Me Page
 .about-info {
   display: grid;
   grid-gap: 30px;
@@ -125,6 +126,12 @@ a.nav-link {
   .job-3 {
     grid-area: job3;
   }
+}
+
+p,
+ul,
+li {
+  margin-bottom: 0.5rem;
 }
 
 // Work/Projects

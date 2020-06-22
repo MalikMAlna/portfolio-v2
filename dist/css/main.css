@@ -212,6 +212,11 @@ a.nav-link {
   .about-info .job-3 {
     grid-area: job3; }
 
+p,
+ul,
+li {
+  margin-bottom: 0.5rem; }
+
 .projects {
   display: grid;
   grid-gap: 0.7rem;
