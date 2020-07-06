@@ -324,7 +324,9 @@ li {
   .projects {
     grid-template-columns: 1fr; }
   .job {
-    padding-left: 5rem; } }
+    padding-left: 5rem; }
+  div.bio > p {
+    font-size: 22px; } }
 
 @media screen and (max-width: 475px) {
   main#home h1 {
