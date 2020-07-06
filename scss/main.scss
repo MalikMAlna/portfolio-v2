@@ -152,6 +152,34 @@ li {
   }
 }
 
+// Contact Page
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 1rem;
+
+  div {
+    font-size: 2rem;
+    border: 3px set-text-color($primary-color) solid;
+    padding: 1rem 2rem;
+    margin-bottom: 3rem;
+
+    &:hover {
+      background: $secondary-color;
+      padding: 1.5rem 2.5rem;
+      @include easeOut;
+      .text-secondary {
+        color: set-text-color($secondary-color);
+      }
+      a {
+        color: set-text-color($secondary-color);
+      }
+    }
+  }
+}
+
 #main-footer {
   text-align: center;
   padding: 1rem;
