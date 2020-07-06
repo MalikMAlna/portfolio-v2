@@ -102,11 +102,12 @@
     transition: all 0.5s ease-out; }
 
 .btn-dark {
-  background: black;
+  background: #000;
   color: #fff; }
 
 .btn-dark-blue {
-  background: #292961; }
+  background: #292961;
+  color: #fff; }
 
 .btn-light {
   background: #c4c4c4;

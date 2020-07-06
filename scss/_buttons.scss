@@ -17,13 +17,14 @@
 
 .btn-dark {
   @extend .btn;
-  background: darken($primary-color, 50);
-  color: set-text-color($primary-color);
+  background: #000;
+  color: #fff;
 }
 
 .btn-dark-blue {
   @extend .btn;
   background: #292961;
+  color: #fff;
 }
 
 .btn-light {
