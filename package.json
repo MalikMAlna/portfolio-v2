@@ -4,7 +4,7 @@
   "description": "A new portfolio to impress all who view it.",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w dist/scss/ -o dist/css/ --recursive"
   },
   "repository": {
     "type": "git",
