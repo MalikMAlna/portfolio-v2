@@ -98,7 +98,8 @@
   .btn:hover, .btn-dark:hover, .btn-dark-blue:hover, .btn-light:hover {
     background-color: #b815ee;
     color: #000;
-    border: 1px #000 solid; }
+    border: 1px #000 solid;
+    transition: all 0.5s ease-out; }
 
 .btn-dark {
   background: black;
