@@ -384,4 +384,19 @@ li {
     h2.sm-heading,
     h3.sm-heading {
       margin-bottom: 2rem;
-      padding: 0.2rem 1rem; } }
+      padding: 0.2rem 1rem; }
+  main {
+    padding: 1rem;
+    min-height: calc(100vh - 50px); }
+    main .icons {
+      margin-top: 1rem; }
+      main .icons a {
+        padding: 0.02rem;
+        margin-left: 0.55rem; }
+        main .icons a:hover {
+          color: #b815ee;
+          transition: all 0.5s ease-out; }
+    main#home {
+      overflow: hidden; }
+      main#home h1 {
+        margin-top: 20vh; } }
