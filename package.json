@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A new portfolio to impress all who view it.",
   "main": "index.js",
-  "homepage": "https://MalikMAlna.github.io/portfolio-v2",
+  "homepage": "https://malikmalna.github.io/portfolio-v2",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
     "deploy": "gh-pages -d dist"
