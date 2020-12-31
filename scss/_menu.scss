@@ -43,7 +43,8 @@
   position: fixed;
   top: 0;
   width: 100%;
-  opacity: 0.9;
+  // May change opacity back to .9
+  opacity: 1;
   visibility: hidden;
 
   &.show {
