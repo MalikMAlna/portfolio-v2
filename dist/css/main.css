@@ -137,7 +137,7 @@ body {
     z-index: -1;
     background: rgba(68, 68, 68, 0.9); }
 
-body#bg-img:after {
+body#bg-img::after {
   height: 110%; }
 
 h1,
