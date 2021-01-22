@@ -16,14 +16,8 @@ body {
   line-height: 1.5;
 }
 
-body#bg-img {
-  @include background;
-  background: $primary-color;
-  color: set-text-color($primary-color);
+body#bg-img::after {
   height: 110%;
-  margin: 0;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 1.5;
 }
 
 // Headings
