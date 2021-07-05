@@ -16,6 +16,10 @@ body {
   line-height: 1.5;
 }
 
+body#bg-img::after {
+  height: 110%;
+}
+
 // Headings
 h1,
 h2,
